@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+	<div class="flip-container hover" id="flip-toggle">
+		<div class="flipper">
+			<div class="front">
+				<div class="front-logo logo"></div>
+				<div class="title">@Ceecirno</div>
+				<p>不是個笨蛋</p>
+			</div>
+			<div class="back">
+				<div class="back-logo logo"></div>
+				<div class="title">@Cee</div>
+				<p>是個笨蛋</p>
+			</div>
+		</div>
+	</div>
+	<button onclick="document.querySelector('#flip-toggle').classList.toggle('hover');">Toggle Flip</button>
+</body>
+</html>
